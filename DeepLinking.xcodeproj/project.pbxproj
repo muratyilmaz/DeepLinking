@@ -8,18 +8,73 @@
 
 /* Begin PBXBuildFile section */
 		52C1C0541FF4E0CB00E2C4E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C1C0531FF4E0CB00E2C4E7 /* AppDelegate.swift */; };
-		52C1C0561FF4E0CB00E2C4E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C1C0551FF4E0CB00E2C4E7 /* ViewController.swift */; };
 		52C1C05B1FF4E0CB00E2C4E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C1C05A1FF4E0CB00E2C4E7 /* Assets.xcassets */; };
 		52C1C05E1FF4E0CB00E2C4E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C1C05C1FF4E0CB00E2C4E7 /* LaunchScreen.storyboard */; };
+		52C1C0661FF4EDE000E2C4E7 /* DeepLinkType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C1C0651FF4EDE000E2C4E7 /* DeepLinkType.swift */; };
+		52C1C0681FF4EE2700E2C4E7 /* DeepLinkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C1C0671FF4EE2700E2C4E7 /* DeepLinkManager.swift */; };
+		52C1C06A1FF4EEB500E2C4E7 /* DeepLinkNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C1C0691FF4EEB500E2C4E7 /* DeepLinkNavigator.swift */; };
+		52C1C06C1FF4F15500E2C4E7 /* ShortcutParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C1C06B1FF4F15500E2C4E7 /* ShortcutParser.swift */; };
+		52C1C06E1FF5039C00E2C4E7 /* DeeplinkParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C1C06D1FF5039C00E2C4E7 /* DeeplinkParser.swift */; };
+		52C1C0721FF50B8A00E2C4E7 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C1C0711FF50B8A00E2C4E7 /* RootViewController.swift */; };
+		52C1C0741FF50C1F00E2C4E7 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C1C0731FF50C1F00E2C4E7 /* SplashViewController.swift */; };
+		52C1C0761FF50D1E00E2C4E7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C1C0751FF50D1E00E2C4E7 /* LoginViewController.swift */; };
+		52C1C0781FF50D9800E2C4E7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C1C0771FF50D9800E2C4E7 /* MainViewController.swift */; };
+		52C1C07A1FF516E200E2C4E7 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C1C0791FF516E200E2C4E7 /* ActivityViewController.swift */; };
+		52C1C07C1FF5332800E2C4E7 /* milk.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52C1C07B1FF5332800E2C4E7 /* milk.jpeg */; };
+		52C1C0841FF53B7900E2C4E7 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C1C0831FF53B7900E2C4E7 /* UserNotifications.framework */; };
+		52C1C0861FF53B7900E2C4E7 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C1C0851FF53B7900E2C4E7 /* UserNotificationsUI.framework */; };
+		52C1C0891FF53B7900E2C4E7 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C1C0881FF53B7900E2C4E7 /* NotificationViewController.swift */; };
+		52C1C08C1FF53B7900E2C4E7 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C1C08A1FF53B7900E2C4E7 /* MainInterface.storyboard */; };
+		52C1C0901FF53B7900E2C4E7 /* ContentExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 52C1C0811FF53B7900E2C4E7 /* ContentExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52C1C08E1FF53B7900E2C4E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52C1C0481FF4E0CB00E2C4E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52C1C0801FF53B7900E2C4E7;
+			remoteInfo = ContentExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		52C1C0941FF53B7900E2C4E7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				52C1C0901FF53B7900E2C4E7 /* ContentExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		52C1C0501FF4E0CB00E2C4E7 /* DeepLinking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepLinking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C1C0531FF4E0CB00E2C4E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52C1C0551FF4E0CB00E2C4E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52C1C05A1FF4E0CB00E2C4E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52C1C05D1FF4E0CB00E2C4E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52C1C05F1FF4E0CB00E2C4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52C1C0651FF4EDE000E2C4E7 /* DeepLinkType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkType.swift; sourceTree = "<group>"; };
+		52C1C0671FF4EE2700E2C4E7 /* DeepLinkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkManager.swift; sourceTree = "<group>"; };
+		52C1C0691FF4EEB500E2C4E7 /* DeepLinkNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkNavigator.swift; sourceTree = "<group>"; };
+		52C1C06B1FF4F15500E2C4E7 /* ShortcutParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutParser.swift; sourceTree = "<group>"; };
+		52C1C06D1FF5039C00E2C4E7 /* DeeplinkParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkParser.swift; sourceTree = "<group>"; };
+		52C1C0711FF50B8A00E2C4E7 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		52C1C0731FF50C1F00E2C4E7 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		52C1C0751FF50D1E00E2C4E7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		52C1C0771FF50D9800E2C4E7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		52C1C0791FF516E200E2C4E7 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		52C1C07B1FF5332800E2C4E7 /* milk.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = milk.jpeg; sourceTree = "<group>"; };
+		52C1C0811FF53B7900E2C4E7 /* ContentExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ContentExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C1C0831FF53B7900E2C4E7 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		52C1C0851FF53B7900E2C4E7 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		52C1C0881FF53B7900E2C4E7 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		52C1C08B1FF53B7900E2C4E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		52C1C08D1FF53B7900E2C4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +85,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		52C1C07E1FF53B7900E2C4E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C1C0861FF53B7900E2C4E7 /* UserNotificationsUI.framework in Frameworks */,
+				52C1C0841FF53B7900E2C4E7 /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -37,6 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				52C1C0521FF4E0CB00E2C4E7 /* DeepLinking */,
+				52C1C0871FF53B7900E2C4E7 /* ContentExtension */,
+				52C1C0821FF53B7900E2C4E7 /* Frameworks */,
 				52C1C0511FF4E0CB00E2C4E7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				52C1C0501FF4E0CB00E2C4E7 /* DeepLinking.app */,
+				52C1C0811FF53B7900E2C4E7 /* ContentExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,13 +119,58 @@
 		52C1C0521FF4E0CB00E2C4E7 /* DeepLinking */ = {
 			isa = PBXGroup;
 			children = (
+				52C1C07B1FF5332800E2C4E7 /* milk.jpeg */,
+				52C1C0701FF50B7100E2C4E7 /* Viewcontrollers */,
+				52C1C06F1FF50B0B00E2C4E7 /* DeepLinker */,
 				52C1C0531FF4E0CB00E2C4E7 /* AppDelegate.swift */,
-				52C1C0551FF4E0CB00E2C4E7 /* ViewController.swift */,
 				52C1C05A1FF4E0CB00E2C4E7 /* Assets.xcassets */,
 				52C1C05C1FF4E0CB00E2C4E7 /* LaunchScreen.storyboard */,
 				52C1C05F1FF4E0CB00E2C4E7 /* Info.plist */,
 			);
 			path = DeepLinking;
+			sourceTree = "<group>";
+		};
+		52C1C06F1FF50B0B00E2C4E7 /* DeepLinker */ = {
+			isa = PBXGroup;
+			children = (
+				52C1C0651FF4EDE000E2C4E7 /* DeepLinkType.swift */,
+				52C1C0671FF4EE2700E2C4E7 /* DeepLinkManager.swift */,
+				52C1C0691FF4EEB500E2C4E7 /* DeepLinkNavigator.swift */,
+				52C1C06B1FF4F15500E2C4E7 /* ShortcutParser.swift */,
+				52C1C06D1FF5039C00E2C4E7 /* DeeplinkParser.swift */,
+			);
+			path = DeepLinker;
+			sourceTree = "<group>";
+		};
+		52C1C0701FF50B7100E2C4E7 /* Viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				52C1C0711FF50B8A00E2C4E7 /* RootViewController.swift */,
+				52C1C0731FF50C1F00E2C4E7 /* SplashViewController.swift */,
+				52C1C0751FF50D1E00E2C4E7 /* LoginViewController.swift */,
+				52C1C0771FF50D9800E2C4E7 /* MainViewController.swift */,
+				52C1C0791FF516E200E2C4E7 /* ActivityViewController.swift */,
+			);
+			path = Viewcontrollers;
+			sourceTree = "<group>";
+		};
+		52C1C0821FF53B7900E2C4E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52C1C0831FF53B7900E2C4E7 /* UserNotifications.framework */,
+				52C1C0851FF53B7900E2C4E7 /* UserNotificationsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52C1C0871FF53B7900E2C4E7 /* ContentExtension */ = {
+			isa = PBXGroup;
+			children = (
+				52C1C0881FF53B7900E2C4E7 /* NotificationViewController.swift */,
+				52C1C08A1FF53B7900E2C4E7 /* MainInterface.storyboard */,
+				52C1C08D1FF53B7900E2C4E7 /* Info.plist */,
+			);
+			path = ContentExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,15 +183,34 @@
 				52C1C04C1FF4E0CB00E2C4E7 /* Sources */,
 				52C1C04D1FF4E0CB00E2C4E7 /* Frameworks */,
 				52C1C04E1FF4E0CB00E2C4E7 /* Resources */,
+				52C1C0941FF53B7900E2C4E7 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				52C1C08F1FF53B7900E2C4E7 /* PBXTargetDependency */,
 			);
 			name = DeepLinking;
 			productName = DeepLinking;
 			productReference = 52C1C0501FF4E0CB00E2C4E7 /* DeepLinking.app */;
 			productType = "com.apple.product-type.application";
+		};
+		52C1C0801FF53B7900E2C4E7 /* ContentExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52C1C0911FF53B7900E2C4E7 /* Build configuration list for PBXNativeTarget "ContentExtension" */;
+			buildPhases = (
+				52C1C07D1FF53B7900E2C4E7 /* Sources */,
+				52C1C07E1FF53B7900E2C4E7 /* Frameworks */,
+				52C1C07F1FF53B7900E2C4E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContentExtension;
+			productName = ContentExtension;
+			productReference = 52C1C0811FF53B7900E2C4E7 /* ContentExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -92,6 +223,10 @@
 				ORGANIZATIONNAME = Grey;
 				TargetAttributes = {
 					52C1C04F1FF4E0CB00E2C4E7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					52C1C0801FF53B7900E2C4E7 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -111,6 +246,7 @@
 			projectRoot = "";
 			targets = (
 				52C1C04F1FF4E0CB00E2C4E7 /* DeepLinking */,
+				52C1C0801FF53B7900E2C4E7 /* ContentExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -122,6 +258,15 @@
 			files = (
 				52C1C05E1FF4E0CB00E2C4E7 /* LaunchScreen.storyboard in Resources */,
 				52C1C05B1FF4E0CB00E2C4E7 /* Assets.xcassets in Resources */,
+				52C1C07C1FF5332800E2C4E7 /* milk.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C1C07F1FF53B7900E2C4E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C1C08C1FF53B7900E2C4E7 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,12 +277,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52C1C0561FF4E0CB00E2C4E7 /* ViewController.swift in Sources */,
+				52C1C06E1FF5039C00E2C4E7 /* DeeplinkParser.swift in Sources */,
+				52C1C0781FF50D9800E2C4E7 /* MainViewController.swift in Sources */,
+				52C1C0661FF4EDE000E2C4E7 /* DeepLinkType.swift in Sources */,
+				52C1C0741FF50C1F00E2C4E7 /* SplashViewController.swift in Sources */,
 				52C1C0541FF4E0CB00E2C4E7 /* AppDelegate.swift in Sources */,
+				52C1C0681FF4EE2700E2C4E7 /* DeepLinkManager.swift in Sources */,
+				52C1C07A1FF516E200E2C4E7 /* ActivityViewController.swift in Sources */,
+				52C1C06C1FF4F15500E2C4E7 /* ShortcutParser.swift in Sources */,
+				52C1C0721FF50B8A00E2C4E7 /* RootViewController.swift in Sources */,
+				52C1C0761FF50D1E00E2C4E7 /* LoginViewController.swift in Sources */,
+				52C1C06A1FF4EEB500E2C4E7 /* DeepLinkNavigator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C1C07D1FF53B7900E2C4E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C1C0891FF53B7900E2C4E7 /* NotificationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52C1C08F1FF53B7900E2C4E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52C1C0801FF53B7900E2C4E7 /* ContentExtension */;
+			targetProxy = 52C1C08E1FF53B7900E2C4E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		52C1C05C1FF4E0CB00E2C4E7 /* LaunchScreen.storyboard */ = {
@@ -146,6 +316,14 @@
 				52C1C05D1FF4E0CB00E2C4E7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		52C1C08A1FF53B7900E2C4E7 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52C1C08B1FF53B7900E2C4E7 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -261,10 +439,12 @@
 		52C1C0631FF4E0CB00E2C4E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K67V66ZCRS;
 				INFOPLIST_FILE = DeepLinking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.grey.DeepLinking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,13 +456,45 @@
 		52C1C0641FF4E0CB00E2C4E7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K67V66ZCRS;
 				INFOPLIST_FILE = DeepLinking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.grey.DeepLinking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52C1C0921FF53B7900E2C4E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K67V66ZCRS;
+				INFOPLIST_FILE = ContentExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grey.DeepLinking.ContentExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52C1C0931FF53B7900E2C4E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K67V66ZCRS;
+				INFOPLIST_FILE = ContentExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grey.DeepLinking.ContentExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,6 +517,15 @@
 			buildConfigurations = (
 				52C1C0631FF4E0CB00E2C4E7 /* Debug */,
 				52C1C0641FF4E0CB00E2C4E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52C1C0911FF53B7900E2C4E7 /* Build configuration list for PBXNativeTarget "ContentExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C1C0921FF53B7900E2C4E7 /* Debug */,
+				52C1C0931FF53B7900E2C4E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
